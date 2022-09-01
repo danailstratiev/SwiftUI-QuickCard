@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18231E582754E1CB007C051B /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18231E572754E1CB007C051B /* BarView.swift */; };
+		18860D63275405BB00A24434 /* QuickCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860D62275405BB00A24434 /* QuickCardApp.swift */; };
+		18860D65275405BB00A24434 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860D64275405BB00A24434 /* ContentView.swift */; };
+		18860D67275405BF00A24434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18860D66275405BF00A24434 /* Assets.xcassets */; };
+		18860D6A275405BF00A24434 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18860D69275405BF00A24434 /* Preview Assets.xcassets */; };
+		18860D75275405BF00A24434 /* QuickCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860D74275405BF00A24434 /* QuickCardTests.swift */; };
+		18860D80275405BF00A24434 /* QuickCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860D7F275405BF00A24434 /* QuickCardUITests.swift */; };
+		18860D8E27549FD300A24434 /* ImageLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860D8D27549FD300A24434 /* ImageLabelView.swift */; };
+		18860D902754C1F500A24434 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860D8F2754C1F500A24434 /* User.swift */; };
+		18860D922754C61600A24434 /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860D912754C61600A24434 /* Visit.swift */; };
+		18860D942754C6D300A24434 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860D932754C6D300A24434 /* CardView.swift */; };
+		18860D962754D57B00A24434 /* VisitorInfoVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860D952754D57B00A24434 /* VisitorInfoVIew.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18860D71275405BF00A24434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18860D57275405BB00A24434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18860D5E275405BB00A24434;
+			remoteInfo = QuickCard;
+		};
+		18860D7C275405BF00A24434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18860D57275405BB00A24434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18860D5E275405BB00A24434;
+			remoteInfo = QuickCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18231E572754E1CB007C051B /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		18860D5F275405BB00A24434 /* QuickCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18860D62275405BB00A24434 /* QuickCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCardApp.swift; sourceTree = "<group>"; };
+		18860D64275405BB00A24434 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18860D66275405BF00A24434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18860D69275405BF00A24434 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18860D6B275405BF00A24434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18860D70275405BF00A24434 /* QuickCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18860D74275405BF00A24434 /* QuickCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCardTests.swift; sourceTree = "<group>"; };
+		18860D76275405BF00A24434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18860D7B275405BF00A24434 /* QuickCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18860D7F275405BF00A24434 /* QuickCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCardUITests.swift; sourceTree = "<group>"; };
+		18860D81275405BF00A24434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18860D8D27549FD300A24434 /* ImageLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLabelView.swift; sourceTree = "<group>"; };
+		18860D8F2754C1F500A24434 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		18860D912754C61600A24434 /* Visit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visit.swift; sourceTree = "<group>"; };
+		18860D932754C6D300A24434 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		18860D952754D57B00A24434 /* VisitorInfoVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorInfoVIew.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18860D5C275405BB00A24434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18860D6D275405BF00A24434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18860D78275405BF00A24434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18860D56275405BB00A24434 = {
+			isa = PBXGroup;
+			children = (
+				18860D61275405BB00A24434 /* QuickCard */,
+				18860D73275405BF00A24434 /* QuickCardTests */,
+				18860D7E275405BF00A24434 /* QuickCardUITests */,
+				18860D60275405BB00A24434 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18860D60275405BB00A24434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18860D5F275405BB00A24434 /* QuickCard.app */,
+				18860D70275405BF00A24434 /* QuickCardTests.xctest */,
+				18860D7B275405BF00A24434 /* QuickCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18860D61275405BB00A24434 /* QuickCard */ = {
+			isa = PBXGroup;
+			children = (
+				18860D62275405BB00A24434 /* QuickCardApp.swift */,
+				18860D64275405BB00A24434 /* ContentView.swift */,
+				18860D952754D57B00A24434 /* VisitorInfoVIew.swift */,
+				18860D66275405BF00A24434 /* Assets.xcassets */,
+				18860D6B275405BF00A24434 /* Info.plist */,
+				18860D68275405BF00A24434 /* Preview Content */,
+				18860D8D27549FD300A24434 /* ImageLabelView.swift */,
+				18860D8F2754C1F500A24434 /* User.swift */,
+				18860D912754C61600A24434 /* Visit.swift */,
+				18860D932754C6D300A24434 /* CardView.swift */,
+				18231E572754E1CB007C051B /* BarView.swift */,
+			);
+			path = QuickCard;
+			sourceTree = "<group>";
+		};
+		18860D68275405BF00A24434 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18860D69275405BF00A24434 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18860D73275405BF00A24434 /* QuickCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				18860D74275405BF00A24434 /* QuickCardTests.swift */,
+				18860D76275405BF00A24434 /* Info.plist */,
+			);
+			path = QuickCardTests;
+			sourceTree = "<group>";
+		};
+		18860D7E275405BF00A24434 /* QuickCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18860D7F275405BF00A24434 /* QuickCardUITests.swift */,
+				18860D81275405BF00A24434 /* Info.plist */,
+			);
+			path = QuickCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18860D5E275405BB00A24434 /* QuickCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18860D84275405BF00A24434 /* Build configuration list for PBXNativeTarget "QuickCard" */;
+			buildPhases = (
+				18860D5B275405BB00A24434 /* Sources */,
+				18860D5C275405BB00A24434 /* Frameworks */,
+				18860D5D275405BB00A24434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickCard;
+			productName = QuickCard;
+			productReference = 18860D5F275405BB00A24434 /* QuickCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18860D6F275405BF00A24434 /* QuickCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18860D87275405BF00A24434 /* Build configuration list for PBXNativeTarget "QuickCardTests" */;
+			buildPhases = (
+				18860D6C275405BF00A24434 /* Sources */,
+				18860D6D275405BF00A24434 /* Frameworks */,
+				18860D6E275405BF00A24434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18860D72275405BF00A24434 /* PBXTargetDependency */,
+			);
+			name = QuickCardTests;
+			productName = QuickCardTests;
+			productReference = 18860D70275405BF00A24434 /* QuickCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18860D7A275405BF00A24434 /* QuickCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18860D8A275405BF00A24434 /* Build configuration list for PBXNativeTarget "QuickCardUITests" */;
+			buildPhases = (
+				18860D77275405BF00A24434 /* Sources */,
+				18860D78275405BF00A24434 /* Frameworks */,
+				18860D79275405BF00A24434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18860D7D275405BF00A24434 /* PBXTargetDependency */,
+			);
+			name = QuickCardUITests;
+			productName = QuickCardUITests;
+			productReference = 18860D7B275405BF00A24434 /* QuickCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18860D57275405BB00A24434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					18860D5E275405BB00A24434 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					18860D6F275405BF00A24434 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 18860D5E275405BB00A24434;
+					};
+					18860D7A275405BF00A24434 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 18860D5E275405BB00A24434;
+					};
+				};
+			};
+			buildConfigurationList = 18860D5A275405BB00A24434 /* Build configuration list for PBXProject "QuickCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18860D56275405BB00A24434;
+			productRefGroup = 18860D60275405BB00A24434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18860D5E275405BB00A24434 /* QuickCard */,
+				18860D6F275405BF00A24434 /* QuickCardTests */,
+				18860D7A275405BF00A24434 /* QuickCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18860D5D275405BB00A24434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18860D6A275405BF00A24434 /* Preview Assets.xcassets in Resources */,
+				18860D67275405BF00A24434 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18860D6E275405BF00A24434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18860D79275405BF00A24434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18860D5B275405BB00A24434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18231E582754E1CB007C051B /* BarView.swift in Sources */,
+				18860D962754D57B00A24434 /* VisitorInfoVIew.swift in Sources */,
+				18860D902754C1F500A24434 /* User.swift in Sources */,
+				18860D8E27549FD300A24434 /* ImageLabelView.swift in Sources */,
+				18860D65275405BB00A24434 /* ContentView.swift in Sources */,
+				18860D922754C61600A24434 /* Visit.swift in Sources */,
+				18860D942754C6D300A24434 /* CardView.swift in Sources */,
+				18860D63275405BB00A24434 /* QuickCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18860D6C275405BF00A24434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18860D75275405BF00A24434 /* QuickCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18860D77275405BF00A24434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18860D80275405BF00A24434 /* QuickCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18860D72275405BF00A24434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18860D5E275405BB00A24434 /* QuickCard */;
+			targetProxy = 18860D71275405BF00A24434 /* PBXContainerItemProxy */;
+		};
+		18860D7D275405BF00A24434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18860D5E275405BB00A24434 /* QuickCard */;
+			targetProxy = 18860D7C275405BF00A24434 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18860D82275405BF00A24434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18860D83275405BF00A24434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18860D85275405BF00A24434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QuickCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demoprojectswift.QuickCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18860D86275405BF00A24434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QuickCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demoprojectswift.QuickCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18860D88275405BF00A24434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuickCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demoprojectswift.QuickCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickCard.app/QuickCard";
+			};
+			name = Debug;
+		};
+		18860D89275405BF00A24434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuickCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demoprojectswift.QuickCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickCard.app/QuickCard";
+			};
+			name = Release;
+		};
+		18860D8B275405BF00A24434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuickCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demoprojectswift.QuickCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuickCard;
+			};
+			name = Debug;
+		};
+		18860D8C275405BF00A24434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuickCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demoprojectswift.QuickCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuickCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18860D5A275405BB00A24434 /* Build configuration list for PBXProject "QuickCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18860D82275405BF00A24434 /* Debug */,
+				18860D83275405BF00A24434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18860D84275405BF00A24434 /* Build configuration list for PBXNativeTarget "QuickCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18860D85275405BF00A24434 /* Debug */,
+				18860D86275405BF00A24434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18860D87275405BF00A24434 /* Build configuration list for PBXNativeTarget "QuickCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18860D88275405BF00A24434 /* Debug */,
+				18860D89275405BF00A24434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18860D8A275405BF00A24434 /* Build configuration list for PBXNativeTarget "QuickCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18860D8B275405BF00A24434 /* Debug */,
+				18860D8C275405BF00A24434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18860D57275405BB00A24434 /* Project object */;
+}
